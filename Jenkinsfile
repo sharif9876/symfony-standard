@@ -2,5 +2,8 @@ node {
 stage "Checkout"
   checkout scm
 stage "Build"
-  sh 'sudo /usr/local/bin composer install'
+  sh 'ls -la /'
+  sh 'ls -la /usr'
+  sh 'ls -la /usr/local'
+  sh 'ls -la /usr/local/bin'
 }
