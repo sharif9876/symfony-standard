@@ -2,5 +2,7 @@ node {
 stage "Checkout"
   checkout scm
 stage "Build"
-  printenv
+  ah
+
+  sh 'printenv'
 }
