@@ -2,5 +2,5 @@ node {
 stage "Checkout"
   checkout scm
 stage "Build"
-  sh 'printenv'
+  sh '/usr/local/bin composer install'
 }
