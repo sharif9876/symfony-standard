@@ -2,5 +2,5 @@ node {
 stage "Checkout"
   checkout scm
 stage "Build"
-  sudo sh -c 'composer install'
+  sh 'sudo -u jenkins composer install'
 }
