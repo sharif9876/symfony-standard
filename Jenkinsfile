@@ -5,4 +5,5 @@ stage "Checkout"
 stage "Build"
   print "in build"
   sh 'ls -la /usr/bin'
+  sh 'sleep 600'
 }
