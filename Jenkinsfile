@@ -4,5 +4,5 @@ stage "Checkout"
   print "checking out"
 stage "Build"
   print "in build"
-  sh 'composer install'
+  sh 'ls -la /usr/bin'
 }
